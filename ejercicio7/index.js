@@ -1,6 +1,8 @@
-const numeros = [1,2,3,4,5];
-function sumaNumeros(numeros) {
-    var resultado = numeros[1]+numeros[2];
-    return resultado;
-    }
-    console.log(resultado);  
+function sumaNumeros(x) {
+    var suma= 0
+    for (var i=0;i<=x;i=i+2) {
+        suma +=i
+     }
+     return suma
+     }
+    console.log(sumaNumeros(5));  
