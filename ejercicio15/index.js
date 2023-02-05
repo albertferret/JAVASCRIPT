@@ -6,10 +6,6 @@ const users = [
     {username: 'sergio58', age:26, premium:true},
 ];
 const userpremium =users.filter (function(user){
-    return user.username=true;
+    return user.premium==true;
 });
 console.log(userpremium);
-//const nopremium= users.filter (function(user2){
-//    return user2.premium=false;
- //   });
-//console.log(nopremium);
